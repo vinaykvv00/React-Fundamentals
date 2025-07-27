@@ -7,7 +7,7 @@ function App() {
   return (
     <section>
       <CompoOne count={count} onClickhandler={() => setCount(count + 1)} />
-    //  <CompoTwo count={count} setCount={setCount} />
+      <CompoTwo count={count} setCount={setCount} />
     </section>
   );
 }
